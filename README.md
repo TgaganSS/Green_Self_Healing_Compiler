@@ -129,6 +129,23 @@ tests/       automated tests
 benchmarks/  evaluation scripts and results
 tools/       doctor.py, heal_demo.py, make_big_tests.py
 ```
+## Screenshots
+
+### System Architecture and Agent Diagrams
+
+![Agentic Diagram](screenshots/dia_agentic2.png)
+
+![Multi-Agent Diagram](screenshots/dia_multi2.png)
+
+### Analysis and Evaluation
+
+![BA Figure](screenshots/fig_ba.png)
+
+![Confusion Matrix](screenshots/fig_cm.png)
+
+![Gold Standard Results](screenshots/fig_gold.png)
+
+![Healing Results](screenshots/fig_heal.png)
 
 ## Limitations
 Projects are built with a plain compile + link of every file (no CMake/Makefile parsing: use `--cxxflags` / `--link-flags` for defines and libraries); healing is rule-based and stops on cases needing human intent (linker errors,
